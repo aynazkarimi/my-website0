@@ -1,0 +1,48 @@
+/* عکس پروفایل */
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #f5c542;
+  margin-bottom: 15px;
+}
+
+/* دکمه‌های طلایی */
+.btn-gold {
+  display: inline-block;
+  background-color: #f5c542;
+  color: #000;
+  padding: 10px 22px;
+  border-radius: 8px;
+  margin: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-gold:hover {
+  background-color: #ffe08a;
+  transform: scale(1.05);
+}
+
+/* گالری پروژه‌ها */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.gallery-item {
+  background: #fff7e8;
+  padding: 18px;
+  border: 2px solid #f5c542;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.gallery-item:hover {
+  background: #ffeac1;
+  transform: translateY(-4px);
+}
